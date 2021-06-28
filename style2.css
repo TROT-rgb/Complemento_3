@@ -1,0 +1,68 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+body{
+    background-image: url("recursos/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container_body{
+    display: flex;
+    justify-content: center;
+    min-width: 400px;
+}
+.container{
+    background-color: #000000ad;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 900px;
+    min-width: 400px;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.caja_img{
+    width: 400px;
+    height: 400px;
+    align-self: center;
+}
+
+.caja_img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    align-self: center;
+    border-radius: 10px;
+}
+
+.info{
+    min-width: 400px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.date{
+    min-width: 400px;
+    align-self: center;
+    text-align: center;
+    flex:1;
+    text-shadow: 3px 3px 3px #000000;
+}
+.valoracion{
+    min-width: 400px;
+    width: 100%;
+    text-align: center;
+    background-color: #52525263;
+    text-shadow: 3px 3px 3px #000000;
+}
+.comentarios{
+    min-width: 400px;
+    padding: 30px;
+    background-color: #96969652;
+    border-radius: 0 0 10px 10px;
+}

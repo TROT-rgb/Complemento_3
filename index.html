@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Componente 3</title>
+</head>
+<body>
+
+    <form class="form_container" action="index.php" method="POST" enctype="multipart/form-data">
+        <div class="items">
+            <p>Ingrese su nombre de Usuario </p><input required type="text" name="nombre"><br><br>
+            <p>Agrega foto del producto </p><input required type="file" name="imagen" accept="image/x-png,image/gif,image/jpeg"><br><br>
+            <p>Ingrese el nombre del producto </p><input required type="text" name="producto"><br><br>
+            <div class="range">
+                <p>Puntua el producto </p><input required type="range" min="1" max="5" name="valoracion"><br><br>
+            </div>
+            
+            <p>Deja tu comentario :D </p><textarea name="comentario"></textarea><br><br>
+            <div class="submit">
+                <p><input type="submit" value="Enviar"></p>
+            </div>
+            <div class="submit">
+                <p><input type="reset" value="Eliminar"></p>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
